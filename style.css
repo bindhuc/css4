@@ -1,0 +1,97 @@
+.container{
+    height: 50vh;
+    width: 50vw;
+    background-color: aqua;
+    position: relative;
+    left: 50px;
+    border: 2px solid aquamarine;
+}
+
+.child{
+height:50px;
+width:50px;
+background-color: blue;
+}
+
+.container1{
+    margin: 20px;
+    padding: 20px;
+}
+
+.box1{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background-color: aqua;
+}
+.box2{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    background-color: aqua;
+}
+.box3{
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    background-color: aqua;
+}
+.box4{
+    height: 50px;
+    width: 50px;
+    position: sticky;
+    background-color: aqua;
+}
+.box5{
+    height: 50px;
+    width: 50px;
+    position: sticky;
+    background-color: aqua;
+}
+.box{
+    margin: 20px;
+    padding: 20px;
+}
+.container2{
+   height: 30vh;
+    width:50vw;
+    position:relative;
+    background-color: aqua;
+    left: 20px
+    
+}
+
+.child1{
+    height: 10vh;
+    width: 20vw;
+    position: absolute;
+    background-color: blue;
+    left: 20px;
+
+}
+
+
+  
+.sticky {
+    position: sticky;
+    background: crimson;
+    color: #ffffff;
+    padding: 30px;
+    top: 0;
+    left: 10;
+    width:300px ;
+    
+    
+}
+  
+
+    .fixed {
+        position: fixed;
+        background: crimson;
+        color: #ffffff;
+        padding: 30px;
+        top: 0;
+       margin-left: 55em;
+       width:300px ;
+        
+    }
